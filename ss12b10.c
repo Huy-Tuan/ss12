@@ -5,7 +5,7 @@
 // Nhap gia tri cho mang
 void nhapMang(int arr[], int* n) {
     printf("Nhap so phan tu can nhap (toi da %d): ", MAX);
-    scanf("%d", n);  // Gán giá tr? cho n
+    scanf("%d", n);
     if (*n > MAX) {
         printf("So phan tu vuot qua gioi han!\n");
         *n = 0;
